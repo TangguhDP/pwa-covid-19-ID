@@ -1,0 +1,20 @@
+{
+  "name": "COVID-19-PWA",
+  "short_name": "Our new PWA web app",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ff9800",
+  "description": "Edukasi web tentang corona berserta info info ciri ciri dan pencegahan",
+  "icons": [
+    {
+      "src": "assets/images/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/Icon-196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ]
+}
