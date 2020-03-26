@@ -4,6 +4,10 @@ var staticAssets = [
     '/index.html',
     '/assets/style/hello-world.css',
     '/index.js',
+    '/xhr.js',
+    '/images/COVID19_Wallpaper-ID.jpg',
+    '/images/kasus_corona.jpg',
+    '/images/scrolldown.gif',
 ];
 
 self.addEventListener('install', function (e) {
