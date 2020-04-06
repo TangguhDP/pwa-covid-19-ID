@@ -8,6 +8,10 @@ var staticAssets = [
     '/images/COVID19_Wallpaper-ID.jpg',
     '/images/kasus_corona.jpg',
     '/images/scrolldown.gif',
+    'chart/highcharts.js',
+    'chart/modules/exporting.js',
+    'chart/modules/export-data.js',
+    'chart/modules/accessibility.js'
 ];
 
 self.addEventListener('install', function (e) {

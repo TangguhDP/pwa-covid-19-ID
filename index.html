@@ -28,7 +28,14 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="chart/highcharts.js"></script>
+    <script src="chart/modules/exporting.js"></script>
+    <script src="chart/modules/export-data.js"></script>
+    <script src="chart/modules/accessibility.js"></script>
+    
     <script src="./xhr.js"></script>
+
+    
     
   </head>
   <body onload="getData()">
@@ -105,6 +112,76 @@
                   <!-- <span class="append">%</span> -->
                 </div>
                 <span class="block-counter-1-caption">Total Kematian</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-section" style="background-color: #3E0001!important; color: white;">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <h2 class="site-section-heading text-center font-secondary">Data Statistik</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="dataline"></div>
+      </div>
+    </div>
+
+    <div class="site-section" style="background-color: #3E0001!important; color: white;">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <h2 class="site-section-heading text-center font-secondary">Data Per Provinsi</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-sm-12" id="statprov"></div>
+        </div>
+        <div class="row" id="data-prov">
+          <div class="col-sm-3">
+            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header text-center">Loading ...</div>
+              <div class="card-body">
+                <p class="card-text">Positif : </p><hr>
+                <p class="card-text">Sembuh : </p><hr>
+                <p class="card-text">Meninggal : </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header text-center">Loading ...</div>
+              <div class="card-body">
+                <p class="card-text">Positif : </p><hr>
+                <p class="card-text">Sembuh : </p><hr>
+                <p class="card-text">Meninggal : </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header text-center">Loading ...</div>
+              <div class="card-body">
+                <p class="card-text">Positif : </p><hr>
+                <p class="card-text">Sembuh : </p><hr>
+                <p class="card-text">Meninggal : </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+              <div class="card-header text-center">Loading ...</div>
+              <div class="card-body">
+                <p class="card-text">Positif : </p><hr>
+                <p class="card-text">Sembuh : </p><hr>
+                <p class="card-text">Meninggal : </p>
               </div>
             </div>
           </div>
