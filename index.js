@@ -12,3 +12,9 @@ async function registerSW() {
     }
   }
 }
+
+$('.downs').click(function(){
+  $('html, body').animate({
+    scrollTop: $("#site1").offset().top
+}, 2000);
+});

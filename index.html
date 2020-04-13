@@ -61,7 +61,7 @@
           <div class="col-md-10">
 
             <div class="row justify-content-center mb-4">
-              <div class="col-md-10 text-center">
+              <div class="col-md-10 text-center downs">
                 <h1 data-aos="fade-up" class="mb-5">Coronavirus Disease 2019<br>(COVID-19)</h1>
 
                 <img data-aos="fade-up" data-aos-delay="250" style="width: 20%; margin: -20%;"
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="site-section" style="background-color: #3E0001!important; color: white;">
+    <div class="site-section" id="site1" style="background-color: #3E0001!important; color: white;">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-12 text-center">
@@ -106,6 +106,67 @@
       </div>
     </div>
 
+    <div class="site-section" style="background-color: #3E0001!important; color: white;">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <h2 data-aos="fade-up" data-aos-delay="100" class="site-section-heading text-center font-secondary">KASUS COVID-19 DI INDONESIA</h2>
+            <div class="block-half-content-excerpt">
+              <p data-aos="fade-up" data-aos-delay="200" id="test" class="lead">
+                Sampai saat ini, di Indonesia kasus COVID-19 diperkirakan sebagai berikut :
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="block-counter-1 section-counter">
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="counter" data-aos="fade-up" data-aos-delay="300">
+                <div class="number-wrap">
+                  <div class="card" style="width: auto; background-color: #343435;">
+                    <div class="card-body">
+                      <h5 class="card-title block-counter-1-number" id="total_case" style="font-size: 52px;">0</h5>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 18px;">Total Kasus</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="counter" data-aos="fade-up" data-aos-delay="400">
+                <div class="number-wrap">
+                  <div class="card" style="width: auto; background-color: #343435;">
+                    <div class="card-body">
+                      <h5 class="card-title block-counter-1-number" id="total_recovered" style="font-size: 52px;">0</h5>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 18px;">Total Pasien Sembuh</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="counter" data-aos="fade-up" data-aos-delay="500">
+                <div class="number-wrap">
+                  <div class="card" style="width: auto; background-color: #343435;">
+                    <div class="card-body">
+                      <h5 class="card-title block-counter-1-number" id="total_death" style="font-size: 52px;">0</h5>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 18px;">Total Kematian</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
     <div class="block-half-content-1 d-block d-lg-flex">
       <div class="block-half-content-img" style="background-image: url('images/kasus_corona.jpg');"></div>
       <div class="block-half-content-text" style="background-color: #3E0001!important;">
@@ -124,7 +185,6 @@
               <div class="counter" data-aos="fade-up" data-aos-delay="300">
                 <div class="number-wrap">
                   <span class="block-counter-1-number" id="total_case">0</span>
-                  <!-- <span class="append">K</span> -->
                 </div>
                 <span class="block-counter-1-caption">Total Kasus</span>
               </div>
@@ -143,7 +203,6 @@
               <div class="counter" data-aos="fade-up" data-aos-delay="500">
                 <div class="number-wrap">
                   <span class="block-counter-1-number" id="total_death">0</span>
-                  <!-- <span class="append">%</span> -->
                 </div>
                 <span class="block-counter-1-caption">Total Kematian</span>
               </div>
@@ -151,7 +210,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="site-section" style="background-color: #3E0001!important; color: white;">
       <div class="container">
@@ -178,7 +237,33 @@
         <div class="row mb-5">
           <div data-aos="fade-up" data-aos-delay="600" class="col-sm-12" id="statprov"></div>
         </div>
-        <div class="row" id="data-prov" data-aos="fade-up" data-aos-delay="900">
+        <div class="row" data-aos="fade-up" data-aos-delay="900">
+          <div class="col-sm-12">
+            <div class="table-responsive text-nowrap">
+
+              <table class="table">
+                <thead class="text-center">
+                  <tr>
+                    <th scope="col">Provinsi</th>
+                    <th scope="col">Kasus</th>
+                    <th scope="col">Sembuh</th>
+                    <th scope="col">Meninggal</th>
+                    <th scope="col">Persentase Kasus</th>
+                    <th scope="col">Persentase Sembuh</th>
+                    <th scope="col">Persentase Meninggal</th>
+                  </tr>
+                </thead>
+                <tbody id="data-prov">
+                  <tr>
+                   <td colspan="7" class="text-center">Menunggu data...</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+            </div>
+          </div>
+        </div>
+        <div class="row" hidden>
           <div class="col-sm-3">
             <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
               <div class="card-header text-center">Loading ...</div>
