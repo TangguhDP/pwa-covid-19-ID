@@ -55,9 +55,12 @@ self.addEventListener('install', function (e) {
         })
     );
 });
+
 self.addEventListener('activate', event => {
     event.waitUntil(self.clients.claim());
+    caches.delete('web-app-v1');
 });
+
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request, { ignoreSearch: true }).then(response => {
