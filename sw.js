@@ -16,7 +16,7 @@ https://github.com/mathdroid/indonesia-covid-19-api
 Copyright (c) 2020 Dhimas P. Herlambang, Ichwanul Fadhli, Tangguh D. Pramono
 */
 
-var cacheName = 'web-app-v1';
+var cacheName = 'web-app-v2';
 var staticAssets = [
     './',
     './index.html',
