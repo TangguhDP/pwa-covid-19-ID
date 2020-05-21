@@ -1,3 +1,21 @@
+/*
+Developed by :
+Dhimas Panjie Herlambang
+https://github.com/DhimasPH
+
+Ichwanul Fadhli
+https://github.com/ichwanulfadhli/
+
+Tangguh Destio Pramono
+https://github.com/TangguhDP
+
+API by :
+Mathroid
+https://github.com/mathdroid/indonesia-covid-19-api
+
+Copyright (c) 2020 Dhimas P. Herlambang, Ichwanul Fadhli, Tangguh D. Pramono
+*/
+
 window.addEventListener('load', () => {
   registerSW();
 });
@@ -13,8 +31,8 @@ async function registerSW() {
   }
 }
 
-$('.downs').click(function(){
+$('.downs').click(function () {
   $('html, body').animate({
     scrollTop: $("#site1").offset().top
-}, 2000);
+  }, 2000);
 });

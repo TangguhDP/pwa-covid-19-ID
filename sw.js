@@ -1,3 +1,21 @@
+/*
+Developed by :
+Dhimas Panjie Herlambang
+https://github.com/DhimasPH
+
+Ichwanul Fadhli
+https://github.com/ichwanulfadhli/
+
+Tangguh Destio Pramono
+https://github.com/TangguhDP
+
+API by :
+Mathroid
+https://github.com/mathdroid/indonesia-covid-19-api
+
+Copyright (c) 2020 Dhimas P. Herlambang, Ichwanul Fadhli, Tangguh D. Pramono
+*/
+
 var cacheName = 'web-app-v1';
 var staticAssets = [
     './',
