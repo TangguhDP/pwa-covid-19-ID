@@ -11,3 +11,6 @@ Menggunakan data dari [mathroid](https://github.com/mathdroid/indonesia-covid-19
 
 ## Catatan
 Jika ingin menambahkan file seperti script dan media pastikan mencantumkan ke file serviceworker nya di sw.js
+
+## Testing
+Hanya test
